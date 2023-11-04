@@ -1,0 +1,12 @@
+[package]
+name = "clipp"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/bend-n/clipp"
+description = "clipboard, simple."
+keywords = ["clipboard"]
+categories = ["os"]
+license = "MIT"
+
+[target.'cfg(target_family = "windows")'.dependencies]
+clipboard-win = "4.5.0"
